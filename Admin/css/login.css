@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+html, body{
+	width: 100%; 	
+	height: 100%;
+	font-family: 'Sigmar One', cursive !important;
+	font-size: 18px;
+	background-color: #252934 !important;
+}
+body .bg{
+	background: url('') no-repeat !important ; 
+	width: 100%; 
+	max-height: 100%;
+	height: 666px;
+	background-size: auto;
+}
+.row-container{
+	border: 2px solid green;
+	border-radius: 17px;
+	margin-top: 14vh;
+	padding: 27px;
+	-webkit-box-shadow: 0px 0px 9px 5px rgba(94,255,124,0.96);
+	-moz-box-shadow: 0px 0px 9px 5px rgba(94,255,124,0.96);
+	box-shadow: 0px 0px 9px 5px rgba(94,255,124,0.96);
+}
+.row-container form h2{
+	color: white;
+	text-shadow: 3px 3px 12px black;
+}
+.form-group{
+	margin: 29px 0;
+}
+.form-check label{
+	color: white;
+}
+.form-group input{
+	border-radius: 22px;
+	background: none;
+	border: 4px solid #2dfc43;
+	color:  #03fc24;
+	width: 80%;
+}
+.form-group input:focus{
+	background: none;
+	border: 4px solid green;
+	color: #03fc24;
+}
+.forgot-pass{
+	margin-right: 40px;
+	text-shadow: 2px 2px 7px black;
+}
+.forgot-pass .text-light{
+	text-decoration: none;
+}
+.error{
+	background-color: #ff9191;
+	color: red;
+	padding: 9px;
+	width: fit-content;
+	border-radius: 9px;
+	margin-top: 9px;
+}
+.success{
+	background-color: #a7ff59;
+	color: green;
+	padding: 9px;
+	width: fit-content;
+	border-radius: 9px;
+	margin-top: 9px;
+}
+.register-user a{
+	text-shadow: 5px 5px 11px black;
+}
+.create-user{
+	margin-left: 30px;
+	text-shadow: 2px 2px 9px black;
+}
+.create-user .text-light{
+	text-decoration: none;
+}
+.register-admin-user .text-light{
+	text-decoration: none;
+}
+.text-light small:hover{
+	color: green;
+}
+.col-6 p{
+	margin-bottom: 0px;
+	bottom: 0;
+}
+.for-reg{
+	margin-bottom: 12vh;
+}
+.col-6 p{
+	color: white;
+}
+
+
+.form-group {
+    position:relative;
+    padding: 0 33px;
+}
+#input {
+    padding-left: 44px;
+    width: 100%;
+  	text-shadow: 2px 2px 4px black;
+}
+#input_img {
+    color: #51e800;
+    position: absolute;
+    bottom: 12px;
+    left: 46px;
+    font-size: 22px;
+}
+::placeholder {
+  color: #51e800 !important;
+  opacity: 0.8 !important; 
+  text-shadow: 2px 2px 4px black;
+}
+.form-group button{
+	height: 44px;
+    padding: 0 44px;
+    border-radius: 22px;
+}
+
+/* REGISTER-FORM */
+
+.row-container-register{
+	padding: 29px 200px !important; 
+	margin-bottom:29px; 
+	margin-top: 50px !important;
+	border: 2px solid green;
+	border-radius: 17px;
+	margin-top: 14vh;
+	padding: 27px;
+	-webkit-box-shadow: 0px 0px 9px 5px rgba(94,255,124,0.96);
+	-moz-box-shadow: 0px 0px 9px 5px rgba(94,255,124,0.96);
+	box-shadow: 0px 0px 9px 5px rgba(94,255,124,0.96);
+}
+.row-container-register h2{
+	color: green;
+}
+.row-container-register form h2{
+	color: white;
+	text-shadow: 3px 3px 12px black;
+}

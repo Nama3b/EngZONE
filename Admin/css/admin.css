@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+html, body{
+	width: 100%; 	
+	height: 100%;
+	font-family: 'Sigmar One', cursive !important;
+	font-size: 18px;
+	background-color: rgb(0,0,0) !important;
+}
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar
+{
+	height: 7px;
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #FFF;
+	background-image: -webkit-linear-gradient(top,#54ff6b 0%,#32fc4e 50%,#24ff42 51%,#00ff22 100%);
+}
+h5{
+	color: white;
+}
+label{
+	color: white !important;
+}
+.form-group input{
+	color: rgb(155, 242, 104) !important;
+	border-bottom: 5px solid #00690f !important;
+}
+select{
+	color: rgb(155, 242, 104) !important;
+}
+textarea{
+	color: rgb(155, 242, 104) !important;
+}
+::placeholder {
+	color: green !important;
+  	opacity: 0.7 !important; 
+}
+a{
+	text-decoration: none !important;
+}
+a:hover{
+	color: green !important;
+}
+#navbarResponsive a{
+	color: white;
+}
+.navbar-branch img{
+	margin: 15px;
+}
+.navbar-fixed-left{
+	background-color: #05ff27;
+	color: white !important;
+}
+#navbarResponsive ul{
+	margin-left: 13px;
+}
+.dad-nav-link{
+	color: #00a507 !important;
+}
+#navbarResponsive ul li .dad-nav-link{
+	border-bottom: 2px solid white;
+}
+#navbarResponsive ul li .nav-link {
+    font-size: 13px;
+	color: white;
+}
+.navbar-nav>li>a {
+	width: 94%; 
+}
+
+.navbar-search{
+	margin-top: 20px;
+}
+.search-btn input{
+	background-color: #000;
+	border: none;
+}
+.form-search hr{	
+	border-top: 2px solid rgb(155, 242, 104);
+	width: 100%;
+}
+.admin-profile{
+	float: right;
+}
+.admin-profile ul li{
+	display: inline;
+}
+a .media{
+	display: inline-table;
+}
+.media-body h4{
+	color: white;
+	margin-left: 10px;
+}
+.media-body h4:hover{
+	color: green;
+}
+.dropdown-item{
+    display: block;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.dropdown-menu {
+    margin-top: 15px !important;
+}
+
+.jumbotron{
+	padding: 1px 15px;
+	margin: 0 29px;
+}
+.jumbotron h2{
+	color: green;
+}
+
+.main-content{
+	margin-top: 19px;
+}
+.inner-item{
+	padding: 15px;
+	margin: 15px;
+	border: 2px solid green;
+	border-radius: 20px;
+}
+.inner-item a{
+	color: white;
+}
+.inner-item i{
+	font-size: 55px;
+}
+.lesson-item{
+	padding: 10px 29px;
+	border: 2px solid green;
+	border-radius: 20px;
+	margin: 15px;
+}
+.lesson-item a{
+	color: white;
+}
+.lesson-item i{
+	font-size: 55px;
+}
+.fa-warehouse{
+	font-size: 45px !important; 
+}
+.form-group input{
+    border-bottom: 1px solid #00690f;
+}
+.lesson-header{
+	display: flex;
+}
+.lesson-header a{
+	margin-top: 25px;
+	margin-left: 29px;
+}
+
+/* ---------------------------- */
+.card-header{
+	color: green;
+}
+.table-header{
+	background-color: green;
+	color: white;
+}
+.table-body{
+	color: green;
+}
+.table-body td{
+    white-space: nowrap;
+}
+.address, .email, .book_name, .review, .review_book, .content{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 200px !important;
+}
+.client-name, .client-email{
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 177px !important;
+}
+.error{
+	background-color: #ff9191;
+	color: red;
+	padding: 9px;
+	width: 99%;
+	border-radius: 9px;
+	margin-top: 9px;
+}
